@@ -6,7 +6,7 @@
   }
 
   .container {
-    background-image: url(src/img/2126507.jpg);
+    background-image: url(/src/img/2126507.jpg);
     height: 616px;
     background-size: cover;
     background-repeat: no-repeat;
