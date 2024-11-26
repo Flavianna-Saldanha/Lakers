@@ -1,0 +1,325 @@
+@media (min-width: 250px) and (max-width: 749px) {
+    .menu, .seta, .linha-2 {
+        display: none;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+    }
+   
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+    }
+
+    .sec-left {
+        position: relative;
+        top: 220px;
+        margin: 0 80px;
+        left: auto;
+        width: auto;
+    }
+
+    .left {  
+        top: 75px;
+        left: auto;
+        width: auto;
+        font-size: 25px;
+    }
+
+    .left h6 {
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+    
+    .desc {
+        margin: 15px;
+        font-size: 12px;
+        top: 80px;
+        left: auto;
+        width: auto;
+        line-height: 25px;
+    }
+    
+    .right  {
+        width: auto;
+        left: auto;
+        top: -415px;
+        display: flex;
+    }
+
+    .right img {
+        width: 250px;
+        filter: drop-shadow(8px 8px 5px black);
+    }
+
+    #jogos-dias, .elenco-desc-1, .noticias-lakers {
+        font-size: 25px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .jogos {
+        padding: 0;
+        gap: 50px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+      }
+
+    .times {
+        font-size: 12px;
+        width: 250px;
+        height: 50px;
+        padding: 0px 30px;
+        
+    }
+
+    .time-1 img, .time-2 img {
+        width: auto;
+        height: 25px;
+        color: #000;
+    }
+
+    .time-1 h6, .time-2 h6 {
+        font-size: 6px;
+    }
+
+    .data {
+        position: relative;
+        top: 35px;
+        right: 170px;
+    }
+
+    .elenco-time {
+        width: 215px;
+        justify-content: center;
+        gap: 18px;
+        color: rgb(53, 11, 92);
+    
+      }
+
+    .elenco-img img, .wallpaper-2 img {
+        width: 100px;
+    }
+
+    .elenco-desc {
+        font-size: 10px;
+    }
+
+    #container {
+        padding: 50px 0;
+        border-radius: 25px;
+        width: 90%;
+        height: auto;
+        left: 0;
+        justify-self: center;
+    }
+
+    .news {
+        width: 200px;
+    }
+
+    .linha {
+        width: 165px;
+    }
+    
+    .news h2 {
+        position: relative;
+        top: 25px;
+        font-size: 15px; 
+    }
+
+    .news img {
+        width: 190px;
+    }
+
+    footer {
+        height: 50px;
+
+    }
+
+    .criacao {
+        padding-top: 20px;
+        color: #000;
+        font-size: 11px;
+        gap: 5px;
+    }
+
+    .criacao img {
+        width: 12px;
+    }
+}
+
+
+@media (min-width: 750px) and (max-width: 1350px) {
+
+    .linha-2 {
+        display: none;
+    }
+
+    .container {
+        height: 500px;
+    } 
+
+    .sec-left {
+        position: relative;
+        top: 20px;
+        left: auto;
+        width: auto;
+        height: 480px;
+    }
+
+    .left {  
+        top: 120px;
+        left: -210px;
+        width: auto;
+        font-size: 35px;
+    }
+
+    .left h6 {
+        font-size: 17px;
+        letter-spacing: 5px;
+    }
+    
+    .desc {
+        margin: 15px;
+        font-size: 12px;
+        top: 120px;
+        left: -210px;
+        width: 310px;
+        line-height: 25px;
+    }
+    
+    .right  {
+        width: auto;
+        left: auto;
+        top: -394px;
+        display: flex;
+        float: right;
+    }
+
+    .right img {
+        width: 400px;
+        filter: drop-shadow(8px 0 0 black);
+    }
+
+    .jogos {
+        width: 100%;
+    }
+
+    #container {
+        width: 80%;
+    }
+    
+    #jogos-dias, .elenco-desc-1, .noticias-lakers {
+        padding-top: 50px;
+        width: 50%;
+        position: relative;
+        left: 20%;
+        margin: 50px;
+        height: 150px;
+    }
+
+    .jogos {
+        padding: 0;
+        gap: 50px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+      }
+
+    .times {
+        font-size: 12px;
+        width: 250px;
+        height: 50px;
+        padding: 0px 30px;
+        
+    }
+
+    .time-1 img, .time-2 img {
+        width: auto;
+        height: 25px;
+        color: #000;
+    }
+
+    .time-1 h6, .time-2 h6 {
+        font-size: 6px;
+    }
+
+    .data {
+        position: relative;
+        top: 35px;
+        right: 170px;
+    }
+
+    .elenco-time {
+        width: 215px;
+        justify-content: center;
+        gap: 18px;
+        color: rgb(53, 11, 92);
+    
+      }
+
+    .elenco-img img, .wallpaper-2 img {
+        width: 100px;
+    }
+
+    .elenco-desc {
+        font-size: 10px;
+    }
+
+    #container {
+        padding: 50px 0;
+        border-radius: 25px;
+        width: 90%;
+        height: auto;
+        left: 0;
+        justify-self: center;
+    }
+
+    .news {
+        width: 200px;
+    }
+
+    .linha {
+        width: 165px;
+    }
+    
+    .news h2 {
+        position: relative;
+        top: 25px;
+        font-size: 15px; 
+    }
+
+    .news img {
+        width: 190px;
+    }
+
+    footer {
+        height: 50px;
+
+    }
+
+    .criacao {
+        padding-top: 20px;
+        color: #000;
+        font-size: 11px;
+        gap: 5px;
+    }
+
+    .criacao img {
+        width: 12px;
+    }
+}
+
+
+
